@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://source.unsplash.com/1600x900/?music,concert');
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #fff;
+}
+
+p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.imagenes img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.musica {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+
